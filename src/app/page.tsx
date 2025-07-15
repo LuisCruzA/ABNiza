@@ -1,3 +1,6 @@
-export default function page (){
-  return <p className="text-red-500 font-bold">pantalla de inicio/principal  </p>
+// app/page.tsx
+import { redirect } from "next/navigation";
+
+export default function Home() {
+  redirect("/inicio"); //no mover
 }

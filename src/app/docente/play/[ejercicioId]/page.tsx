@@ -4,7 +4,7 @@ import { ReactElement } from 'react'
 
 
 
-export default function NivelPage({ params }: { params: { ejercicioId: string } }) {
+export default async function NivelPage({ params }: { params: { ejercicioId: string } }) {
   // mapa que asocia el ID recibido con el componente correcto
   const niveles: Record<string, ReactElement> = {
     'nivel-1': <Nivel1 />,
