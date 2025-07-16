@@ -1,3 +1,9 @@
+import Header from "../ui/landing/header";
+
 export default function Layout({ children }: { children: React.ReactNode }) {
-    return <>{children}</>;
+    return <>{}
+    
+        <Header/>
+    
+    </>;
   }
