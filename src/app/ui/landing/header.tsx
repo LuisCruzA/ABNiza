@@ -10,13 +10,13 @@ export default function Header(){
            
            <Image
            src="/imagenes/abLogo.png"
-            alt="Descripción de la imagen"
+            alt="logo"
             width={200}
             height={100}
             className="rounded-lg shadow-md ml-20 "
            />
 
-           <h1 className="text-black text-7xl font-bold mr-80 " >Ab Niza</h1>
+           <h1 className="text-black text-7xl font-bold mr-80 " >AB Niza</h1>
     <div className="flex gap-4 mr-20">
             <Button className="bg-amber-200 text-black font-bold rounded-full">
 

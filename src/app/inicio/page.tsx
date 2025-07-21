@@ -1,3 +1,15 @@
+import Hero from "../ui/landing/hero";
+import User from "../ui/landing/userType";
 export default function page (){
-  return <p className="text-red-500 font-bold">pantalla de inicio/principal  </p>
+
+
+  return(
+      <div className="">
+        <Hero/>
+        
+        <User/>
+
+      </div>
+
+  )
 }
