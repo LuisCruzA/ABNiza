@@ -7,7 +7,7 @@ export default function Hero(){
     return(
 
 <div className=" bg-gradient-to-b from-amber-50 to-amber-200
-border border-amber-100 flex flex-row  justify-between px-4 py-2 h-[500px]">
+ flex flex-row  justify-between px-4 py-2 h-[500px]">
 
         <div className="flex flex-col    w-1/2  break-words px-8 py-14">
         <h2 className="text-black text-4xl font-bold">
@@ -24,7 +24,7 @@ border border-amber-100 flex flex-row  justify-between px-4 py-2 h-[500px]">
         <Image 
         
             src="/imagenes/pato1.png"
-            alt="Descripción de la imagen"
+            alt="pato"
             width={200}
             height={100}
             className="rounded-lg shadow-md ml-72 "
