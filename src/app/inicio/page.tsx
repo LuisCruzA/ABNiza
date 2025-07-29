@@ -1,5 +1,6 @@
 import Hero from "../ui/landing/hero";
 import User from "../ui/landing/userType";
+import Preview from "../ui/landing/preview";
 export default function page (){
 
 
@@ -8,6 +9,8 @@ export default function page (){
         <Hero/>
         
         <User/>
+
+        <Preview/>
 
       </div>
 

@@ -13,7 +13,7 @@ export default function Header(){
             alt="logo"
             width={200}
             height={100}
-            className="rounded-lg shadow-md ml-20 "
+            className="rounded-lg shadow-md ml-20 hover:scale-105 transition-transform duration-300"
            />
 
            <h1 className="text-black text-7xl font-bold mr-80 " >AB Niza</h1>
