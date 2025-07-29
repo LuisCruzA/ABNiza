@@ -1,3 +1,4 @@
+'use client'
 import Button from "./button"
 import Image from "next/image"
 export default function Hero(){
@@ -27,7 +28,7 @@ export default function Hero(){
             alt="pato"
             width={200}
             height={100}
-            className="rounded-lg shadow-md ml-72 "
+            className="rounded-lg shadow-md ml-72 hover:scale-105 transition-transform duration-300"
             />
 
 

@@ -1,3 +1,4 @@
+'use client'
 
 import Image from "next/image"
 export default function User (){
@@ -6,7 +7,7 @@ export default function User (){
 return(
 
 <div className="border-t border-amber-200 bg-amber-200
- flex  flex-col  items-center  px-4 py-20 h-[700px]">
+ flex  flex-col  items-center  px-4 py-30 h-[700px]">
 
 <h2 className="text-black text-4xl font-bold text-center mb-10">
         ¿Para quién es?
@@ -20,7 +21,7 @@ return(
         alt="pato"
         width={200}
         height={100}
-        className="  w-47 h-56 rounded-lg shadow-md  "
+        className="  w-47 h-56 rounded-lg shadow-md hover:scale-105 transition-transform duration-300 "
         />
        <h2 className="text-black text-3xl font-bold">
         Docente
@@ -36,7 +37,7 @@ return(
         alt="pato"
         width={200}
         height={100}
-        className=" rounded-lg shadow-md  "
+        className=" rounded-lg shadow-md hover:scale-105 transition-transform duration-300 "
         />
 <h2 className="text-black text-3xl font-bold">
 Estudiante      
