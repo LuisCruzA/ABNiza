@@ -2,7 +2,7 @@
 
 export default function Benefits() {
   return (
-    <div className="flex flex-col items-center  bg-amber-200 border-t border-amber-200 px-4 py-40 h-auto">
+    <div className="flex flex-col items-center  bg-gradient-to-t from-amber-50 to-amber-200 px-4 py-40 h-auto">
       <h2 className="text-black text-4xl font-bold text-center mb-16">
         Beneficios de usar ABNiza
       </h2>

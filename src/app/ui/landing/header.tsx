@@ -16,7 +16,7 @@ export default function Header(){
             className="rounded-lg shadow-md ml-20 hover:scale-105 transition-transform duration-300"
            />
 
-           <h1 className="text-black text-7xl font-bold mr-80 " >AB Niza</h1>
+           <h1 id="header" className="text-black text-7xl font-bold mr-80 " >AB Niza</h1>
     <div className="flex gap-4 mr-20">
             <Button className="bg-amber-200 text-black font-bold rounded-full">
 
