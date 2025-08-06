@@ -13,7 +13,7 @@ export default function Preview(){
 
     return(
 
-<div className="flex flex-col items-center bg-amber-200 border-t border-amber-200 px-4 py-48 h-[800px]">
+<div className="flex flex-col items-center bg-amber-200 border-t border-amber-200 px-4 py-48 h-auto">
   <h2 className="text-black text-4xl font-bold text-center mb-16">
     Explora la experiencia
   </h2>
