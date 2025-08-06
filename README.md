@@ -1,164 +1,154 @@
-AB Niza
-AB Niza is an educational software focused on playful and engaging learning for early literacy (reading and writing). Designed with a modular architecture and modern technologies, it provides a solid foundation for interactive, gamified learning experiences.
 
-🚀 Tech Stack
-Language: TypeScript
+<p align="center">
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="60" height="40"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="TypeScript" width="60" height="40"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="60" height="40"/>
+  </a>
+  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL" width="60" height="40"/>
+  </a>
+  <a href="https://vercel.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="Vercel" width="60" height="40"/>
+  </a>
+</p>
 
-Framework: Next.js
+---
 
-UI Library: React
+# AB Niza – Literacy Learning Software
 
-Styling: Tailwind CSS
+**AB Niza** is an educational software designed to support early literacy (reading and writing) through playful learning experiences. Built with a modular architecture and modern technologies, it enables an interactive, gamified environment for kids.
 
-Database: PostgreSQL
+---
 
-Hosting: Vercel
+## 📚 Table of Contents
 
-📦 Installation
-Clone the repository:
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Code Standards](#code-standards)
+- [Git Workflow](#git-workflow)
+- [Commit & Branch Rules](#commit--branch-rules)
+- [Architecture](#architecture)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Live Demo](#live-demo)
 
-bash
-Copiar
-Editar
-git clone https://github.com/your-username/ab-niza.git
-Navigate to the project folder:
+---
 
-bash
-Copiar
-Editar
-cd ab-niza
-Install dependencies:
+## ⚙️ Tech Stack
 
-bash
-Copiar
-Editar
+- **Language:** TypeScript  
+- **Framework:** Next.js  
+- **UI Library:** React  
+- **CSS Framework:** Tailwind CSS  
+- **Database:** PostgreSQL  
+- **Hosting:** Vercel  
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/LuisCruzA/ABNiza.git
 npm install
-Start development server:
-
-bash
-Copiar
-Editar
 npm run dev
-🧠 Code Guidelines
-Naming Conventions
-Variables: camelCase or PascalCase
+```
 
-Types/Interfaces: PascalCase
+---
 
-Functions: camelCase or PascalCase
+## 🧠 Code Standards
 
-Code Organization
-Proper spacing between declarations, functions, and classes
+### Naming Conventions
 
-Organized import/export structure
+- **Variables:** `camelCase` or `PascalCase`  
+- **Types/Interfaces:** `PascalCase`  
+- **Functions:** `camelCase` or `PascalCase`  
 
-🔀 Gitflow Workflow
-Main Branches
-main: Production-ready code
+### Code Organization
 
-develop: Integration branch for features
+- Proper spacing between declarations, functions, and classes  
+- Clean and consistent import/export structure  
 
-Workflow
-Each team member creates a feature branch from develop
+---
 
-Work is done on that feature branch using our naming convention
+## 🔀 Git Workflow
 
-Once completed, it's merged back into develop
+We follow a **Simplified Gitflow** model.
 
-Hotfixes
-If a bug is found in production, a hotfix branch is created from main
+### Main Branches
 
-After the fix, it's merged into both main and develop
+- `main` → Production-ready code  
+- `Develop` → Integration branch  
 
-This workflow ensures a stable production environment with ongoing development flexibility.
+### Workflow
 
-✅ Commit Rules
-We follow the Conventional Commits standard:
+- Create a **feature branch** from `Develop`
+- Once finished, merge it back into `Develop`
+- HotFixes: If a bug occurs in production, a hotfix branch is created from Develop
+After the fix is implemented, it's merged into both Main and Development to keep branches synchronized
 
-bash
-Copiar
-Editar
+> This ensures stable production while allowing continuous development.
+
+---
+
+## ✅ Commit & Branch Rules
+
+### Conventional Commits
+
+Use the following format:
+
+```
 <type>: <description>
-Recommended Tools
-Conventional Commits Extension
+```
 
-Commitizen
+**Examples:**
 
-Supported Types
-feat: New features
+- `feat: add interactive letter game`
+- `fix: correct audio playback issue`
 
-fix: Bug fixes
+### Supported Commit Types
 
-docs: Documentation changes
+- 
+feat : New features
+fix : Bug fixes
+docs : Documentation changes
+style : Code style changes (formatting, etc.)
+refactor : Code changes that neither fix bugs nor add features
+test : Adding or modifying tests
+chore : Changes to the build process or auxiliary tools
+revert : Reverting previous changes
+perf : Performance improvements
+build : Changes affecting build system
+ci : Changes to CI configuration
+wip : Work in progress
 
-style: Code style changes (formatting, etc.)
+### Branch Naming Convention
 
-refactor: Code changes that do not fix bugs or add features
-
-test: Adding or modifying tests
-
-chore: Changes to build process or auxiliary tools
-
-revert: Reverting previous changes
-
-perf: Performance improvements
-
-build: Build system changes
-
-ci: CI configuration changes
-
-wip: Work in progress
-
-🌿 Branch Naming Rules
-Branch names must follow:
-
-go
-Copiar
-Editar
+```
 <type>/<kebab-case-description>
-Supported Types
-feat/: Feature branches
+```
 
-fix/: Bug fix branches
+**Examples:**
 
-docs/: Documentation branches
+- `feature/new-home-page`
+- `fix/login-error`
 
-style/: Style change branches
+---
 
-refactor/: Refactoring branches
+## 🧱 Architecture
 
-test/: Testing-related branches
+- **Design Pattern:** Modular  
+- **Framework:** Next.js (React + TypeScript)  
+- **Styling:** Tailwind CSS  
+- **Database:** PostgreSQL  
+- **Hosting Platform:** Vercel  
 
-chore/: Maintenance branches
+---
 
-revert/: Revert branches
-
-perf/: Performance branches
-
-build/: Build branches
-
-ci/: CI branches
-
-🧱 Architecture
-Design Pattern: Modular
-
-Framework: Next.js (React + TypeScript)
-
-Styling: Tailwind CSS
-
-Database: PostgreSQL
-
-Hosting Platform: Vercel
-
-📸 Screenshots
-(To be added later)
-
-🧑‍💻 Authors
-Your Name – @yourhandle
-
-📄 License
-This project is licensed under the MIT License.
-
-🌐 Live Demo
-https://ab-niza.vercel.app (Coming soon)
 
