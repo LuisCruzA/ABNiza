@@ -1,5 +1,6 @@
 import Button from "./button"
 import Image from "next/image"
+import Link from "next/link"
 export default function Hero(){
 
 
@@ -31,12 +32,13 @@ export default function Hero(){
             />
 
 
-        
+        <Link href={"/signup"}>
         <Button className=" bg-amber-500 text-white text-2xl font-bold rounded-full px-12 py-8 ml-64 mt-9 w-fit " >
 
         Comenzar ahora
 
         </Button>
+        </Link>
         </div>
 </div>
 
