@@ -1,6 +1,9 @@
 'use client'
 import Image from "next/image"
 import Button from "./button"
+import Link from "next/link"
+
+
 export default function Header(){
 
     return(
@@ -18,16 +21,20 @@ export default function Header(){
 
            <h1 id="header" className="text-black text-7xl font-bold mr-80 " >AB Niza</h1>
     <div className="flex gap-4 mr-20">
+        <Link href={"/signin"}>
             <Button className="bg-amber-200 text-black font-bold rounded-full">
 
                     Iniciar sesión
 
             </Button>
+            </Link>
 
+            <Link href={"/signup"}>
             <Button className="bg-amber-500 text-white font-bold rounded-full" >
 
                     Registrarse
             </Button>
+            </Link>
 
             </div>
         </div>
